@@ -1,0 +1,33 @@
+{
+  "name": "mimosa-inline-css-import",
+  "version": "0.1.0",
+  "homepage": "http://github.com/jbruni/mimosa-inline-css-import",
+  "author": "J Bruni",
+  "description": "CSS @import inliner module for Mimosa browser development workflow tool",
+  "contributors": [
+    {
+      "name": "J Bruni",
+      "email": "contato@jbruni.com.br"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbruni/mimosa-inline-css-import"
+  },
+  "keywords": [
+    "javascript",
+    "css",
+    "import",
+    "inliner",
+    "mimosa",
+    "module"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "main": "./src/index",
+  "scripts": {
+    "prepublish": "mimosa build"
+  }
+}
